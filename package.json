@@ -39,9 +39,5 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-fr-markdown-file": "0.0.0"
-  },
-  "dependencies": {
-    "broccoli-flatiron": "0.0.0",
-    "broccoli-funnel": "^1.0.1"
   }
 }
