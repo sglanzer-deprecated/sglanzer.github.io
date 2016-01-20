@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'sglanzer-github-io',
     environment: environment,
-    baseURL: '/sglanzer-github-io',
+    baseURL: '/',
     locationType: 'hash',
     EmberENV: {
       FEATURES: {
@@ -40,7 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/sglanzer-github-io';
   }
 
   return ENV;
